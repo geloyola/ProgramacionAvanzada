@@ -68,15 +68,15 @@
                               <Component id="inserDia" alignment="0" max="32767" attributes="0"/>
                               <Component id="cmbHoradisponivles" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
-                          <Component id="bntIngresarTurno" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                          <Component id="bntIngresarTurno" min="-2" pref="120" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
                           <Component id="jLabel1" min="-2" pref="247" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="66" max="32767" attributes="0"/>
+                  <EmptySpace pref="51" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -107,32 +107,29 @@
                               <Component id="txtPlaca" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="inserPlaca" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="txtMarca" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="inserMarca" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="txtEstado" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="cmbEstado" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="txtAnden" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="cmbAnden" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                  <Component id="txtDia" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                                  <Component id="bntIngresarTurno" min="-2" pref="144" max="-2" attributes="0"/>
-                              </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtMarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="inserMarca" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cmbEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtAnden" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cmbAnden" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="txtDia" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="inserDia" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="bntIngresarTurno" min="-2" pref="107" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Component id="inserDia" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -150,7 +147,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="24" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Turnos de Vehiculos"/>
+            <Property name="text" type="java.lang.String" value="turnos  vehiculos"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="txtCedula">
